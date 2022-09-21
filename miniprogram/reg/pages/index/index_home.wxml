@@ -1,0 +1,17 @@
+<view class="main main-home">
+
+	<view class="top-pic">
+		<image mode="aspectFit" src="../../images/home/top.jpg"></image>
+	</view>
+	<view class="header-top">
+        <view class="king-kong-area"></view>
+	</view>
+
+
+	<import src="../../ccmini-tpls/public/footer_tpl.wxml" />
+	<template is="footerTpl" data="{{page:'index_home', setup}}" />
+</view>
+
+
+<import src="../../ccmini-tpls/public/menu_tpl.wxml" />
+<template is="menuTpl" data="{{setup, curMenu:'index_home'}}"  />
